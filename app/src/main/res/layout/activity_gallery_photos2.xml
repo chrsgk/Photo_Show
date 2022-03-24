@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery_Photos2">
+
+    <RelativeLayout
+        android:layout_width="421dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:clickable="true"
+            android:src="@drawable/beau_nature_3"/>
+
+        <ImageView
+            android:id="@+id/image_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/image_1"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:src="@drawable/beut_nature_4"/>
+
+        <ImageView
+            android:id="@+id/image_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/image_2"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:src="@drawable/nature_2"/>
+
+    </RelativeLayout>
+
+
+</TableLayout>
